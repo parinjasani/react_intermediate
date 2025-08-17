@@ -1,0 +1,20 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.tanslated{
+
+    transform: perspective(10px) translateZ(-12px);
+
+}
+
+
+.scale{
+    margin-left: 100px;
+
+    transform: perspective(350px) scaleZ(5) rotateX(45deg) rotateY(36deg);
+}

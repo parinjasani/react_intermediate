@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    background-color: rgb(58, 55, 55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    height: 80%;
+    width: 25%;
+    background-color: lightpink;
+    border-radius: 16px;
+    padding: 20px 20px;
+}
+.circle{
+    border-radius: 50%;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(4px 4px 8px palevioletred);
+}
+
+.circle i{
+    color: palevioletred;
+}

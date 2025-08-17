@@ -1,0 +1,51 @@
+.container{
+    height: 215px;
+    width: 100%;
+    background-color: yellow;
+    border: 2px solid red;
+
+}
+
+.box{
+    background-color: beige;
+    width: 212px;
+    height: 212px;
+    border: 2px solid black;
+
+    animation-name: parin;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+    animation-direction: normal;
+}
+
+@keyframes parin {
+
+
+
+
+    25%{
+        background-color: aqua;
+        width: 25%
+    }
+   50%{
+    background-color: blue;
+    width: 50%;
+   }
+   75%{
+    background-color: brown;
+    width: 75%;
+
+   }
+    /* from{
+
+        width: 100px;
+       
+    }
+
+    to{
+width: 100%;
+    } */
+    
+}

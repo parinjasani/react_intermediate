@@ -1,0 +1,47 @@
+.product-form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  align-items: center; /* This centers the cards horizontally */
+  background-color: #fef6e4;
+  width: 400px;
+  margin-top: 50px;
+  border-radius: 12pt;
+  color:  black;
+  
+}
+
+.product-form-wrapper{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-form-button{
+    padding: 10px;
+    background-color:#9c6644;
+    border-radius: 12px;
+    border: 12px;
+    font-weight: bold;
+    color: white; 
+}
+
+.product-form input
+{
+    padding: 10px;
+    background-color:#9c6644;
+    border-radius: 12px;
+    border: 12px;
+    font-weight: bold;
+    color: white; 
+    outline: none;
+    margin: 10px;
+}
+
+.product-form label{
+
+    color:#3e2723;
+    font-weight: bold;
+
+}

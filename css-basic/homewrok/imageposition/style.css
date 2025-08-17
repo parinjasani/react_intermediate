@@ -1,0 +1,37 @@
+.container{
+    position: relative;
+   display: inline-block;
+    /* for match the size with image */
+    
+}
+img{
+    opacity: 0.3;
+    
+}
+#center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#topleft{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+#topright{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+#bottomleft{
+    position: absolute;
+    bottom: 10px;
+    left: 10ppx;
+}
+#bottomright{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}

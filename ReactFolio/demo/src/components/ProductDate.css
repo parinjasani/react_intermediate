@@ -1,0 +1,11 @@
+.mfg-date{
+  text-align: center;
+  background-color: #3e2723;
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}

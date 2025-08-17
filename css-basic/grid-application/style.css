@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+h1{
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.gridcontainer{
+    margin: 20px ;
+    /* background-color: beige;
+    border: 1px solid brown; */
+    height: 100vh; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.25rem;
+    padding: 1.25rem;
+}
+
+.box{
+
+    border:2px solid grey;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.textcontainer {
+    flex-grow: 1;
+    margin: 0.5rem 0;
+}
+
+.blue,.green{
+    font-weight: 600;
+    color: blue;
+}
+.green{
+    font-weight: 600;
+    color: green;
+}
+

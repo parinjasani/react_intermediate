@@ -1,0 +1,19 @@
+.div1{
+    /* linear gradient */
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    background-image: linear-gradient(to bottom,red,orange,yellow 50%);
+    background-image: linear-gradient(to top,red,orange,yellow 50%); 
+    background-image: linear-gradient(to right,red,orange,yellow);
+    background-image: linear-gradient(to left,red,orange,yellow);
+   background-image: linear-gradient(to bottom right,red,orange,yellow);
+}
+
+.div2{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    margin-top: 10px;
+    background-image: radial-gradient(circle,red ,orange ,yellow);
+}

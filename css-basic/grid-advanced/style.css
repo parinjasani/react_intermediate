@@ -1,0 +1,16 @@
+.container{
+    height: 700px;
+    border: 1px solid darkblue;
+    background-color: aquamarine;
+    display: grid;
+    grid-gap: 10px;
+    /* grid-template-rows: 100px  350px 100px; */
+    grid-auto-rows: minmax(100px,auto);
+    grid-template-columns: repeat(3,1fr);
+    
+}
+
+.box{
+    background-color: aqua;
+    border: 1px solid darkblue;
+}

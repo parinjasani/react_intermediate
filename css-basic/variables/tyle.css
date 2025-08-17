@@ -1,0 +1,19 @@
+:root{
+    --black:#000000;
+}
+.container{
+    /* background-color: black; */
+
+    background-color: var(--black);
+    height: 300px;
+    width: 300px;
+}
+
+.box{
+    background-color: white;
+    /* color: black; */
+
+    /* --black:blue; */
+    color: var(--black);
+    border: 1px solid darkred;
+}

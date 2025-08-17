@@ -1,0 +1,18 @@
+.textshadow{
+    color: green;
+    text-shadow: 2px 2px 4px grey;
+    text-shadow: 3px 3px 3px lightgreen,4px 4px 4px yellow;
+}
+
+.box{
+    height: 200px;
+    width: 300px;
+    background-color: darkblue;
+    border: 1px solid black;
+
+   
+
+    box-shadow: 10px 10px 6px rgb(6, 64, 83), 7px 7px 7px rgb(24, 181, 233);
+
+}
+

@@ -1,0 +1,21 @@
+.div1{
+    max-height: 100px;
+    border: 1px solid black;
+}
+
+/* how minheight work */
+.div2{
+    margin-top: 20px;
+    min-height: 100px;
+    border: 1px solid black;
+}
+
+
+/* overflow property */
+
+.overflowcl{
+    margin-top: 20px;
+    height: 100px;
+    border: 1px solid black;
+    overflow: auto;
+}

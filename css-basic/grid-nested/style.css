@@ -1,0 +1,49 @@
+.container{
+    height: 700px;
+    background-color: yellow;
+    border: 1px solid black;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows: 100px 400px 100px;
+    grid-template-columns: 200px 1fr;
+    grid-template-areas: 
+    "hd hd"
+    "sd main"
+    "ft ft";
+}
+.box{
+    background-color: aqua;
+    border: 1px solid black;
+}
+#header{
+    grid-area: hd;
+}
+#sidebar{
+    grid-area: sd;
+}
+
+#main{
+    grid-area: main;
+}
+
+#footer{
+    grid-area: ft;
+}
+
+.nestedgrid{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+    
+}
+
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: palevioletred;
+    border: 1px solid black;
+}

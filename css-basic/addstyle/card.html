@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card{
+            height: 400px;
+            width: 350px;
+            background-color: beige;
+            border-radius: 24px 16px 16px 16px ;
+        }
+        img{
+           padding-left: 20px;
+           padding-right: 20px;
+           padding-top: 20px;
+           border-radius: 26px 26px 30px 30px;
+           height:180px;
+           width:315px
+        }
+        .container{
+            width: 315px;
+            padding-left: 20px; 
+            box-sizing: border-box;
+            font-weight: 2000; 
+            font-size: x-large;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .price{
+            padding-left: 20px; 
+        }
+
+        #acprice{
+            
+            color: blue;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 200;
+        }
+
+        #delprice{
+            padding-left: 10px;
+            padding-right: 10px;
+            color: gray;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 200;
+        }
+
+        #disprice{
+            color: white;
+            background-color: lightgreen;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 200;
+            display: inline-block;
+            padding: 5px;
+            box-sizing: border-box;
+            border-radius:  4px 4px 4px 4px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="card">
+            <img src="certi.png">
+            <div class="container">
+                <p style="overflow: hidden; text-overflow: ellipsis;">Flutter Development Master</p>
+                <p>Course @dot Batch</p>
+            </div>
+            <hr style="width:80%; text-align:left;margin-left:20px;">
+
+            <div class="price">
+                <span id="acprice">
+                    &#8377 4500
+                </span>
+                <span id="delprice">
+                    &#8377<del>6999</del>
+                </span>
+                <span id="disprice">
+                    42% off
+                </span>
+            </div>
+    </div>
+</body>
+</html>

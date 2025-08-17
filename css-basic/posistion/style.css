@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    position: relative;
+    height: 2000px;
+    background-color: aquamarine;
+
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    border: 1px solid darkgreen;
+    display: inline-block;
+    margin:10px;
+}
+
+/* #box3{
+
+    position: relative;
+    top: 10px;
+    left: 10px;    
+} */
+
+/* fixed property */
+/* #box2{
+    position: fixed;
+    top: 25px;
+} */
+
+/* #st1{
+    position: sticky;
+    top: 10px;
+} */
+
+#box3{
+    position: absolute;
+    top: 12px;
+    left: 34px;
+}
+
+
