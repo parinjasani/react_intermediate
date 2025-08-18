@@ -203,10 +203,9 @@ function Form(){
                     type="radio"
                     id="pushEmail"
                     name="pushNotification"
-                    value="Same as email "
+                    value="Same as email"
                     onChange={changeHandler}
                     />
-
                     <label htmlFor="pushEmail">Same as email</label>
 
                     <br></br>
@@ -217,11 +216,7 @@ function Form(){
                     value="No push notification "
                     onChange={changeHandler}
                     />
-
                     <label htmlFor="pushNothing">No push notification</label>
-
-
-
                 </fieldset>
 
                 <button 
