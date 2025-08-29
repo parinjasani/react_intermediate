@@ -1,6 +1,7 @@
 import "./App.css";
 
 import Navbar from "./components/Navbar";
+import PrivateRoute from "./components/PrivateRoute";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
@@ -14,13 +15,17 @@ function App() {
 
 
   return (
-    <div>
+    <div className="w-screen h-screen bg-richblack-900 flex flex-col">
       <Navbar isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedin}/>
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/login" element={<Login setIsLoggedIn={setIsLoggedin}/>}/>
         <Route path="/signup" element={<SignUp setIsLoggedIn={setIsLoggedin}/>} />
-        <Route path="/dashboard" element={<DashBoard/>} />        
+        <Route path="/dashboard" element={
+          <PrivateRoute isLoggedIn={isLoggedIn}>
+            <DashBoard/>
+          </PrivateRoute> 
+          } />        
       </Routes> 
     </div>
   );
